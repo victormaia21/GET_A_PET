@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.container input {
+    padding: .5em 3em .5em 1em;
+    width: 40%;
+    border-radius: 10px;
+}
+.container button {
+    margin-left: .5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container button i {
+    padding: 0 1em;
+}
+

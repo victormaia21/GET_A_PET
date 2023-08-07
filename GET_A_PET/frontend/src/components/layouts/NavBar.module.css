@@ -1,0 +1,45 @@
+.header {
+    background: orange;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 7.5vh;
+    align-items: center;
+}
+.header div img {
+    width: 7vh;
+}
+.header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.header nav ul li {
+    margin-right: .5em;
+}
+.header nav ul li a{
+    text-decoration: none;
+    padding: .5em 1em;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    transition: .5s;
+}
+.header nav ul li a:hover {
+    background: rgb(247, 247, 247);
+    color: black;
+    border: 2px solid black;
+}
+.sair {
+    padding: .5em 1em;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+.sair:hover {
+    background: rgb(247, 247, 247);
+    color: black;
+    border: 2px solid black;
+}

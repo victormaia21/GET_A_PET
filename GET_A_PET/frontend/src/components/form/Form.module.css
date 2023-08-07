@@ -1,0 +1,25 @@
+.container h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1%;
+}
+.delete {
+    display: grid;
+    justify-content: center;
+    margin-top: 1vh;
+}
+.delete button {
+    background: red;
+    border: none;
+    color: white;
+    padding: 1.5vh 4vw;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.imagens {
+    display: flex;
+    justify-content: center;
+}

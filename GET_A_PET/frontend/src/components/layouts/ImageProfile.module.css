@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.container img {
+    border-radius: 50%;
+    height: 13vh;
+}

@@ -1,0 +1,19 @@
+.button {
+    display: grid;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.button button {
+    background: rgb(12, 219, 74);
+    border: none;
+    color: white;
+    padding: 1.5vh 4vw;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button button:hover {
+    background: rgb(23, 189, 73);
+}

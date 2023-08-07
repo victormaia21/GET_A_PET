@@ -1,0 +1,9 @@
+.images {
+    display: flex;
+    justify-content: center;
+    background: red;
+}
+.images {
+    width: 15vh;
+    margin: 0 .2em;
+}
